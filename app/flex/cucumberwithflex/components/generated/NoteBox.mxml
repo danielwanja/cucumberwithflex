@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:HBox xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" label="Note"
+  xmlns:rx="org.restfulx.components.rx.*">
+  <mx:Script><![CDATA[
+    import org.restfulx.Rx;
+    import org.restfulx.utils.RxUtils;
+    import cucumberwithflex.models.Note;
+
+    [Bindable]
+    private var note:Note = new Note();
+
+    private function newNote():void {
+      note = new Note();
+      notesList.selectedIndex = -1;
+    }
+
+    private function saveNote():void {
+      updateModelProperties();
+      if (note.id) {
+        note.update({onSuccess: onNoteUpdate});
+      } else {
+        note.create({onSuccess: onNoteCreate});
+      }
+    }
+  
+    private function updateModelProperties():void {
+      note.title = titleTextInput.text;
+      note.body = bodyTextArea.text;
+  
+    }
+   
+    private function destroyNote():void {
+      note.destroy({onSuccess: onNoteDestroy});
+    }
+    
+    private function onNoteSelect():void {
+      note = RxUtils.clone(notesList.selectedItem) as Note;
+    }
+    
+    private function onNoteCreate(result:Note):void {
+      note = new Note;
+    }
+    
+    private function onNoteUpdate(result:Note):void {
+      notesList.selectedItem = result;
+      onNoteSelect();
+    }
+    
+    private function onNoteDestroy(result:Note):void {
+      onNoteCreate(result);
+    }
+    
+	import org.restfulx.serializers.XMLSerializer;
+	import org.restfulx.collections.ModelsCollection;	
+	private function search():void {
+		Rx.models.cached(Note).removeAll();
+		Rx.http().invoke({URL:"notes.fxml",unmarshall: true});		
+	}
+	
+  ]]></mx:Script>
+  <mx:Panel id="notesPanel"
+    title="Notes" cornerRadius="0" dropShadowEnabled="false" borderStyle="solid"
+    borderThickness="1" backgroundColor="#EEEEEE" width="25%" height="100%">
+    <mx:Button label="Search" click="search()" />
+    <mx:List id="notesList"
+      width="100%" height="100%"
+      dataProvider="{Rx.models.cached(Note)}" 
+      change="onNoteSelect()"/>
+    <mx:ControlBar width="100%">
+      <mx:Button label="New Note" width="100%" height="30"
+        click="newNote()"/>
+    </mx:ControlBar>
+  </mx:Panel>
+  <mx:Panel title="Edit Note" cornerRadius="0" dropShadowEnabled="false" borderStyle="solid"
+    borderThickness="1" backgroundColor="#EEEEEE" width="75%" height="100%">
+    <mx:Form width="100%" height="100%">
+      <mx:FormItem label="Title" width="100%">
+        <mx:TextInput id="titleTextInput" width="100%" text="{note.title}"/>
+      </mx:FormItem>
+      <mx:FormItem label="Body" width="100%">
+        <mx:TextArea id="bodyTextArea" width="100%" height="200" text="{note.body}"/>
+      </mx:FormItem>
+    </mx:Form>
+    <mx:ControlBar width="100%">
+      <mx:Button label="Save Note" width="50%" height="30"
+        click="saveNote()"/>
+      <mx:Button label="Delete Note" width="50%" height="30"
+        enabled="{RxUtils.canDeleteModel(note)}"
+        click="destroyNote()"/>
+    </mx:ControlBar>
+  </mx:Panel>
+</mx:HBox>

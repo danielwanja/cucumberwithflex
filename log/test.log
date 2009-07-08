@@ -1,0 +1,185 @@
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 22:47:37) [GET]
+Rendering flex/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 22:47:38) [GET]
+  [4;36;1mNote Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: notes: SELECT * FROM "notes" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: notes: SELECT * FROM "notes" ):
+  app/controllers/notes_controller.rb:6:in `index'
+
+Rendered rescues/_trace (166.2ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 22:51:08) [GET]
+Rendering flex/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 22:51:10) [GET]
+  [4;36;1mNote Load (1.0ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Completed in 5ms (DB: 1) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 22:52:43) [GET]
+Rendering flex/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 22:52:44) [GET]
+  [4;35;1mNote Load (1.0ms)[0m   [0mSELECT * FROM "notes" [0m
+Completed in 47ms (DB: 1) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 22:54:23) [GET]
+Rendering flex/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 22:54:24) [GET]
+  [4;36;1mNote Load (0.4ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Completed in 3ms (DB: 0) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 22:55:54) [GET]
+Rendering flex/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 22:55:55) [GET]
+  [4;35;1mNote Load (0.6ms)[0m   [0mSELECT * FROM "notes" [0m
+Completed in 3ms (DB: 1) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 22:59:28) [GET]
+Rendering flex/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 22:59:29) [GET]
+  [4;36;1mNote Load (0.5ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Completed in 8ms (DB: 0) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 23:01:26) [GET]
+Rendering flex/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 23:01:27) [GET]
+  [4;35;1mNote Load (0.4ms)[0m   [0mSELECT * FROM "notes" [0m
+Completed in 3ms (DB: 0) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 23:02:12) [GET]
+Rendering flex/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 23:02:13) [GET]
+  [4;36;1mNote Load (0.4ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Completed in 2ms (DB: 0) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 23:04:32) [GET]
+Rendering flex/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 23:04:33) [GET]
+  [4;35;1mNote Load (1.1ms)[0m   [0mSELECT * FROM "notes" [0m
+Completed in 4ms (DB: 1) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 23:10:29) [GET]
+Rendering flex/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 23:10:30) [GET]
+  [4;36;1mNote Load (0.4ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Completed in 3ms (DB: 0) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 23:11:31) [GET]
+Rendering flex/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 23:11:32) [GET]
+  [4;35;1mNote Load (0.4ms)[0m   [0mSELECT * FROM "notes" [0m
+Completed in 3ms (DB: 0) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing NotesController#create to fxml (for 127.0.0.1 at 2009-07-06 23:11:40) [POST]
+  Parameters: {"note"=>{"body"=>"This is the body of the note", "title"=>"NewNoteName"}}
+  [4;36;1mNote Create (0.8ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:11:40', 'NewNoteName', 'This is the body of the note', '2009-07-07 05:11:40')[0m
+Completed in 6ms (DB: 1) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 23:12:32) [GET]
+Rendering flex/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 23:12:33) [GET]
+  [4;35;1mNote Load (0.6ms)[0m   [0mSELECT * FROM "notes" [0m
+Completed in 5ms (DB: 1) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing NotesController#create to fxml (for 127.0.0.1 at 2009-07-06 23:12:41) [POST]
+  Parameters: {"note"=>{"body"=>"This is the body of the note", "title"=>"NewNoteName"}}
+  [4;36;1mNote Create (0.7ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:12:41', 'NewNoteName', 'This is the body of the note', '2009-07-07 05:12:41')[0m
+Completed in 4ms (DB: 1) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 23:15:12) [GET]
+Rendering flex/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 23:15:14) [GET]
+  [4;35;1mNote Load (0.4ms)[0m   [0mSELECT * FROM "notes" [0m
+Completed in 3ms (DB: 0) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing NotesController#create to fxml (for 127.0.0.1 at 2009-07-06 23:15:22) [POST]
+  Parameters: {"note"=>{"title"=>"NewNoteName", "body"=>"This is the body of the note"}}
+  [4;36;1mNote Create (0.5ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:15:22', 'NewNoteName', 'This is the body of the note', '2009-07-07 05:15:22')[0m
+Completed in 4ms (DB: 1) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-06 23:15:38) [GET]
+Rendering flex/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 23:15:40) [GET]
+  [4;35;1mNote Load (0.4ms)[0m   [0mSELECT * FROM "notes" [0m
+Completed in 2ms (DB: 0) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 23:15:44) [GET]
+  [4;36;1mNote Load (0.5ms)[0m   [0;1mSELECT * FROM "notes" [0m
+Completed in 4ms (DB: 1) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing NotesController#index to fxml (for 127.0.0.1 at 2009-07-06 23:15:46) [GET]
+  [4;35;1mNote Load (0.5ms)[0m   [0mSELECT * FROM "notes" [0m
+Completed in 6ms (DB: 0) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing NotesController#create to fxml (for 127.0.0.1 at 2009-07-06 23:15:54) [POST]
+  Parameters: {"note"=>{"title"=>"NewNoteName", "body"=>"This is the body of the note"}}
+  [4;36;1mNote Create (0.5ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:15:54', 'NewNoteName', 'This is the body of the note', '2009-07-07 05:15:54')[0m
+Completed in 4ms (DB: 1) | 200 OK [http://localhost/notes.fxml]
+
+
+Processing FlexController#index (for 127.0.0.1 at 2009-07-07 00:48:11) [GET]
+Rendering flex/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/]

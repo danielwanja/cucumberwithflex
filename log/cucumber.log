@@ -1,0 +1,45 @@
+# Logfile created on Mon Jul 06 22:43:32 -0600 2009  [4;36;1mNote Delete all (1.3ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.7ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 04:51:11', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 04:51:11')[0m
+  [4;36;1mNote Create (0.5ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 04:51:11', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 04:51:11')[0m
+  [4;36;1mNote Delete all (1.5ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.4ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 04:52:46', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 04:52:46')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 04:52:46', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 04:52:46')[0m
+  [4;36;1mNote Delete all (1.7ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.4ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 04:54:25', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 04:54:25')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 04:54:25', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 04:54:25')[0m
+  [4;36;1mNote Delete all (1.5ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.5ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 04:55:57', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 04:55:57')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 04:55:57', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 04:55:57')[0m
+  [4;36;1mNote Delete all (1.4ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.5ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 04:59:30', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 04:59:30')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 04:59:30', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 04:59:30')[0m
+  [4;36;1mNote Delete all (1.4ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (1.1ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:01:29', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 05:01:29')[0m
+  [4;36;1mNote Create (0.4ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:01:29', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 05:01:29')[0m
+  [4;36;1mNote Delete all (1.6ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.4ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:02:15', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 05:02:15')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:02:15', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 05:02:15')[0m
+  [4;36;1mNote Delete all (1.5ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.4ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:04:35', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 05:04:35')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:04:35', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 05:04:35')[0m
+  [4;36;1mNote Delete all (1.5ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.5ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:10:32', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 05:10:32')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:10:32', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 05:10:32')[0m
+  [4;36;1mNote Delete all (1.6ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.6ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:11:33', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 05:11:33')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:11:33', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 05:11:33')[0m
+  [4;36;1mNote Delete all (1.4ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.5ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:12:35', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 05:12:35')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:12:35', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 05:12:35')[0m
+  [4;36;1mNote Delete all (1.6ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.5ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:15:14', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 05:15:14')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:15:14', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 05:15:14')[0m
+  [4;36;1mNote Delete all (2.5ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.5ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:15:40', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 05:15:40')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:15:40', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 05:15:40')[0m
+  [4;35;1mNote Delete all (1.1ms)[0m   [0mDELETE FROM "notes" WHERE 1=1[0m
+  [4;36;1mNote Create (0.4ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:15:44', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 05:15:44')[0m
+  [4;35;1mNote Create (0.3ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:15:44', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 05:15:44')[0m
+  [4;36;1mNote Delete all (1.3ms)[0m   [0;1mDELETE FROM "notes" WHERE 1=1[0m
+  [4;35;1mNote Create (0.3ms)[0m   [0mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:15:46', 'Note0TitleString', 'Note Body Text 0', '2009-07-07 05:15:46')[0m
+  [4;36;1mNote Create (0.3ms)[0m   [0;1mINSERT INTO "notes" ("updated_at", "title", "body", "created_at") VALUES('2009-07-07 05:15:46', 'Note1TitleString', 'Note Body Text 1', '2009-07-07 05:15:46')[0m

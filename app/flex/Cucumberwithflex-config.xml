@@ -1,0 +1,28 @@
+<flex-config>
+  <benchmark>false</benchmark>
+  <default-background-color>#FFFFFF</default-background-color>
+  <compiler>
+    <incremental>false</incremental>
+    <keep-as3-metadata append="true">
+       <name>Resource</name>
+       <name>HasOne</name>
+       <name>HasMany</name>
+       <name>BelongsTo</name>
+       <name>DateTime</name>
+       <name>Lazy</name>
+       <name>Ignored</name>
+    </keep-as3-metadata>
+    <optimize>true</optimize>
+    <keep-generated-actionscript>false</keep-generated-actionscript>
+    <warn-no-constructor>false</warn-no-constructor>
+    <warn-no-explicit-super-call-in-constructor>false</warn-no-explicit-super-call-in-constructor>
+    <debug>false</debug>
+	<include-libraries append="true">
+		<library>../../lib/funfx-0.2.2.swc</library>
+		<library>../../lib/automation.swc</library>
+		<library>../../lib/automation_agent.swc</library>
+		<library>../../lib/automation_dmv.swc</library>
+		<library>../../lib/automation_agent_rb.swc</library>
+	</include-libraries>
+  </compiler>
+</flex-config>
